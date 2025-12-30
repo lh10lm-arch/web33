@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB Nghệ Thuật</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f9f7f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        
+        .main-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            display: block;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        
+        h2 {
+            color: #d35400;
+            margin: 30px 0 15px;
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 24px;
+            background: #d35400;
+            margin-right: 12px;
+            border-radius: 2px;
+        }
+
+        
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        li {
+            background: #fffaf0;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #f39c12;
+            transition: transform 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        
+        .benefits li {
+            border-left: 4px solid #27ae60;
+            background: #f0fff4;
+        }
+
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        
+        @media (max-width: 600px) {
+            .container { padding: 20px; margin: 10px; }
+            h1 { font-size: 1.8rem; }
+        }
+        em{color:blue;
+           text-decoration-line: underline;
+           text-decoration-color: blue;}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>CLB Thể Thao</h1>
+        <p>Nơi khơi nguồn cảm hứng và kết nối đam mê</p>
+    </header>
+
+    <img src="https://sf-static.upanhlaylink.com/img/image_2025123063cb6a5d31d772ba5956159fb5e8a978.jpg" class="main-image">
+
+    <h2>🖌️ Hoạt động "Vừa học vừa chơi" cực chất</h2>
+    <ul>
+        <li>
+            <strong>Workshop Hội họa:</strong> 
+            Từ màu nước trong trẻo, màu acrylic rực rỡ đến ký họa bút chì đầy chiều sâu.
+        </li>
+        <li>
+            <strong>Thế giới Handmade:</strong> 
+            Tự tay làm nến thơm, thêu thùa, làm đồ tái chế hay nặn đất sét cực "chill".
+        </li>
+        <li>
+            <strong>Thiết kế đồ họa cơ bản:</strong> 
+            Làm quen với tư duy bố cục, màu sắc trên các công cụ hiện đại (Canva, Photoshop...).
+        </li>
+        <li>
+            <strong>Triển lãm & Sự kiện:</strong> 
+            Tổ chức các buổi trưng bày tác phẩm của thành viên hoặc trang trí cho các sự kiện lớn của trường.
+        </li>
+    </ul>
+
+    <h2>🌟 Bạn nhận được gì khi là một "mảnh ghép"?</h2>
+    <ul class="benefits">
+        <li>
+            <strong>Đánh thức sự sáng tạo:</strong> 
+            Thoát khỏi áp lực bài vở để thả mình vào không gian sáng tạo không giới hạn.
+        </li>
+        <li>
+            <strong>Rèn luyện sự kiên nhẫn:</strong> 
+            Nghệ thuật giúp bạn tĩnh tâm hơn, tỉ mỉ hơn trong từng chi tiết.
+        </li>
+        <li>
+            <strong>Xây dựng Portfolio:</strong> 
+            Sở hữu tác phẩm cá nhân, hữu ích cho ngành thiết kế, kiến trúc sau này.
+        </li>
+        <li>
+            <strong>Kết nối tâm hồn:</strong> 
+            Tìm thấy những người bạn cùng gu, cùng "tần số" để cùng đi bảo tàng, triển lãm.
+        </li>
+    </ul>
+
+    <footer>
+        <p>— Hãy cùng chúng mình viết nên những câu chuyện đầy màu sắc! —</p>
+    </footer>
+</div>
+<a href="https://lh10lm-arch.github.io/baithuchanh18tlh/"><em>Quay lại trang chủ</em></a>
+
+</body>
+</html>
